@@ -21,6 +21,8 @@ main{
   justify-content: center;
   padding-top: 1rem;
   z-index: 2;
+  height: 50px;
+  background-image: linear-gradient(rgb(65, 63, 63), rgba(63,63,63,0));
 }
 .menu-nav{
   display: flex;
