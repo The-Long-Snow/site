@@ -1,0 +1,91 @@
+
+
+body{
+  background-color: black !important;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+main{
+  background-image: url(./img/sphash-art-new.png);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+  z-index: 2;
+}
+.menu-nav{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  color: aliceblue;
+  text-transform: uppercase;
+
+}
+.menu-nav  ul li{
+  display: inline-block;
+  text-align: center;
+  padding-right: 2rem;
+  border-right: bisque 1px solid;
+}
+
+.social-media  ul li{
+  display: inline-block;
+  text-align: center;
+
+}
+.menu li img {
+  height: 1.5em;
+}
+
+aside {
+  margin-top: 5rem;
+  margin-left: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.logo img {
+  width: 40%;
+}
+.store {
+  display: flex;
+  justify-content: flex-start;
+}
+.steam {
+  margin-right: 10px;
+}
+
+.video-frame{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.screenshots {
+  background: whitesmoke;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+
+.layers img {
+  width: 100%;
+  position: absolute;
+
+}
+
+footer {
+ background-image: url(./img/bg_07.png);
+ background-size: cover;
+}
