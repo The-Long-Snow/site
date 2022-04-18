@@ -1,6 +1,15 @@
+@font-face {
+  font-family: 'SullyVerve';
+  src: url('./font/SullyVerge.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 
 body{
+  font-family: SullyVerve;
+  color: gray;
   background-color: black !important;
   height: 100vh;
   width: 100vw;
@@ -40,6 +49,7 @@ main{
 
 }
 .menu-nav  ul li{
+  font-size: 1.3rem;
   display: inline-block;
   text-align: center;
   padding-right: 2rem;
@@ -76,6 +86,7 @@ aside {
 }
 .aside-body p {
   margin-bottom: 3rem;
+  font-size: 1.5rem;
 }
 .store {
   display: flex;
@@ -86,6 +97,19 @@ aside {
   margin-right: 10px;
 }
 
+.game-categories {
+  width: 100%;
+  position: relative;
+  margin-top: 8rem;
+}
+
+.game-categories p{
+  font-size: 2.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #99ABB3;
+}
+
 .video-frame{
   height: 100%;
   width: 100%;
@@ -93,21 +117,29 @@ aside {
 }
 
 .screenshots {
-  background: whitesmoke;
+
+}
+.screenshots{
+  background-image: url(./img/Trees.svg);
   height: 100%;
   width: 100%;
-  box-sizing: border-box;
+  object-fit: cover;
+}
+
+.gallery{
   position: relative;
 }
 
 
-.layers img {
-  width: 100%;
-  position: absolute;
-
+.subscribe {
+  background-color:#707288;
 }
 
-footer {
- background-image: url(./img/bg_07.png);
- background-size: cover;
+.subscribe-img {
+  width: 50%  ;
+  object-fit: cover;
 }
+.subscribe-img img {
+  width: -webkit-fill-available;
+}
+
