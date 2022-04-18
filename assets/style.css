@@ -57,14 +57,27 @@ aside {
   margin-left: 5rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  width: 45%;
 }
+.logo  {
+  width: 100%;
+}
+
 .logo img {
-  width: 40%;
+  width: 90%;
+}
+
+.aside-body {
+ width: 90%;
+
+}
+.aside-body p {
+  margin-bottom: 3rem;
 }
 .store {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+
 }
 .steam {
   margin-right: 10px;
