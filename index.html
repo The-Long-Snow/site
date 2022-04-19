@@ -11,7 +11,9 @@
   </head>
   <body>
     <div class="container">
-      <main>
+      <div class="row">
+        <div class="col">
+      <main id="top">
         <header class="sticky-top">
           <div class="menu justify-content-between">
             <div class="menu-logo ms-5">
@@ -34,16 +36,16 @@
         </header>
         <aside>
           <div class="logo">
-            <img src="./assets/img/LOGO-new-v2.png" alt="" />
+            <img class="img-fluid" src="./assets/img/LOGO-new-v2.png" alt="" />
           </div>
           <div class="aside-body align-middle">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit dsadas dasdasda. eget dapibus urna maximus sollicitudin. Suspendisse pulv nisl tellus vehicula lectus, vel feugiat sapien nulla ne</p>
             <div class="store">
               <div class="steam">
-                <img src="./assets/img/button_steam.png" alt="" />
+                <img class="img-fluid" src="./assets/img/button_steam.png" alt="" />
               </div>
               <div class="app-store">
-                <img src="./assets/img/button_appstore.png" alt="" />
+                <img class="img-fluid" src="./assets/img/button_appstore.png" alt="" />
               </div>
             </div>
           </div>
@@ -53,14 +55,27 @@
         </div>
       </main>
       <section class="video-trailer">
-        <img class="video-frame" src="./assets/img/video_frame.png" />
+        <img class="video-frame img-fluid" src="./assets/img/video_frame.png"/>
       </section>
-
-      <!-- <section class="screenshots">
-        <div class="gallery">
-          <p>Screenshot</p>
+      <section class="screenshots">
+        <div class="row">
+          <img  class="trees" src="./assets/img/trees.png" alt="">
+          <h3 class="title">Screenshots</h3>
+          <div class="col text-center">
+            <div class="gallery mb-5">
+              <img  closs="col-4"src="./assets/img/ss_04.png" alt="">
+              <img  closs="col-4"src="./assets/img/ss_04.png" alt="">
+              <img  closs="col-4"src="./assets/img/ss_04.png" alt="">
+              <img  closs="col-4"src="./assets/img/ss_04.png" alt="">
+              <img  closs="col-4"src="./assets/img/ss_04.png" alt="">
+              <img  closs="col-4"src="./assets/img/ss_04.png" alt="">
+            </div>
         </div>
-    </section> -->
+
+          <img src="./assets/img/bg_05.png" alt="">
+          <!-- <img src="./assets/img/bg_06.png" alt=""> -->
+        </div>
+    </section>
 
       <section class="subscribe">
         <div class="email-subscribe pt-5 offset-md-2">
@@ -72,18 +87,29 @@
               <input type="email" id="form5Example2" placeholder="Email" class="form-control" style="background-color: #333333;" />
             </div>
             <div class="col-2">
-              <button type="submit" class="btn mb-4" style="background-color: #d65104;">
-                <strong style="color: white;">Subscribe</strong>
+              <button type="submit" class="btn mb-4 subscribe-button" style="background-color: #DC5231;">
+                <p style="color: white;">Subscribe</p>
               </button>
             </div>
           </div>
         </div>
-        <div class="subscribe-img">
-          <img src="./assets/img/bg_07.png">
-      </div>
-      </section>
-    </div>
 
+      </section>
+
+      <footer>
+        <div class="img-wrap">
+        <div class="subscribe-img">
+          <img class="img-fluid" src="./assets/img/bg_07.png">
+       </div>
+       <a class="button-top" href="#top"><img src="./assets/img/button_top.png" alt=""> </a>
+      </div>
+        <div class="ground">
+          <p>Copyright 2022. All rights reserved.</p>
+        </div>
+      </footer>
+    </div>
+    </div>
+  </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>
