@@ -10,21 +10,20 @@
     <title>Permafrost</title>
   </head>
   <body>
-    <div class="container">
-      <div class="row">
+    <div class="container wrapper ">
+      <div class="row ">
         <div class="col">
-      <main id="top">
-        <header class="sticky-top">
+           <header class="sticky-top">
           <div class="menu justify-content-between">
             <div class="menu-logo ms-5">
               <img src="./assets/img/icon_permafrost.png" alt="" />
             </div>
             <nav class="menu-nav me-5">
               <ul>
-                <li>Home</li>
-                <li>Trailer</li>
-                <li>Screenshots</li>
-                <li>Contact</li>
+                <a href="#top"><li>Home</li></a>
+                <a href="#trailer"> <li>Trailer</li> </a>
+                <a href="#screenshots"><li>Screenshots</li></a>
+                <a href="#contact"><li>Contact</li></a>
               </ul>
               <ul>
                 <li class="border-0 pe-0 ps-1"><img src="./assets/img/icon_twitter.png" alt="" /></li>
@@ -34,6 +33,7 @@
             </nav>
           </div>
         </header>
+      <main id="top">
         <aside>
           <div class="logo">
             <img class="img-fluid" src="./assets/img/LOGO-new-v2.png" alt="" />
@@ -54,10 +54,10 @@
           <p>Survival - OpenWorld - Post-Apocalyptic</p>
         </div>
       </main>
-      <section class="video-trailer">
+      <section id="trailer"class="video-trailer">
         <img class="video-frame img-fluid" src="./assets/img/video_frame.png"/>
       </section>
-      <section class="screenshots">
+      <section class="screenshots" id="screenshots">
         <div class="row">
           <img  class="trees" src="./assets/img/trees.png" alt="">
           <h3 class="title">Screenshots</h3>
@@ -77,11 +77,11 @@
         </div>
     </section>
 
-      <section class="subscribe">
+      <section  id="contact" class="subscribe">
         <div class="email-subscribe pt-5 offset-md-2">
           <div class="row">
             <div class="col-4 mb-5 pb-5">
-              <input type="name" id="form5Example2" placeholder="Name" class="form-control" style="background-color: #333333;" />
+              <input type="name" id="form5Example2" placeholder="First Name" class="form-control" style="background-color: #333333;" />
             </div>
             <div class="col-4">
               <input type="email" id="form5Example2" placeholder="Email" class="form-control" style="background-color: #333333;" />

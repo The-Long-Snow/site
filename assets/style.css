@@ -13,13 +13,28 @@ body{
   background-color: black !important;
   overflow-x: hidden;
 }
-
-main{
+.wrapper{
   background-image: url(./img/sphash-art-new.png);
   background-size: cover;
+  padding: 0;
+  /* object-fit: cover;
+  background-repeat: no-repeat; */
   height: 100vh;
+
 }
 
+main{
+  /* background-image: url(./img/sphash-art-new.png);
+  background-size: cover;
+  height: 100vh; */
+}
+
+header {
+  height: 0;
+  position: absolute;
+  left: 0;
+  top: -175px;
+}
 
 .menu{
   display: flex;
@@ -49,6 +64,8 @@ main{
   padding-right: 2rem;
   padding-left: 1rem;
   border-right: bisque 1px solid;
+  text-decoration: none;
+  color: #fff;
 }
 .social-media  ul li{
   display: inline-block;
@@ -94,7 +111,8 @@ aside {
 .game-categories {
   width: 100%;
   position: relative;
-  margin-top: 8rem;
+  top: 3rem;
+  margin-top: 8.5rem;
 }
 
 .game-categories p{
@@ -122,7 +140,7 @@ aside {
   height: 100%;
   width: 100%;
   position: relative;
-  top: -4.2rem;
+  top: -4.4rem;
 }
 .title {
   text-transform: uppercase;
